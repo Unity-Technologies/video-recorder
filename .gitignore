@@ -32,7 +32,5 @@ Library/
 obj/
 Temp/
 
-FrameCapturer/*.csproj
-FrameCapturer/*.sln
-FrameRecorder/
-FrameRecorder.meta
+*.csproj
+*.sln

@@ -4,15 +4,15 @@ using UnityEditor;
 
 public class FrameCapturerPackaging
 {
-    [MenuItem("Assets/Make FrameCapturer.unitypackage")]
+    [MenuItem("Assets/Make .unitypackage")]
     public static void MakePackage()
     {
         {
             string[] files = new string[]
             {
-                "Assets/",
+                "Assets/ML-Agents/RecordVideos",
             };
-            AssetDatabase.ExportPackage(files, "FrameCapturer.unitypackage", ExportPackageOptions.Recurse);
+            AssetDatabase.ExportPackage(files, "MLAgents_RecordVideos.unitypackage", ExportPackageOptions.Recurse);
         }
     }
 
