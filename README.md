@@ -1,5 +1,5 @@
 # ML-Agents VideoRecorder plugin
-This is a plugin for [Unity's MLAgents framework](https://github.com/Unity-Technologies/ml-agents) that allows to record videos of a scene with a given frequency.
+This is a plugin for [Unity's MLAgents framework](https://github.com/Unity-Technologies/ml-agents) that allows to record videos of a scene at a given frequency.
 
 It can be used to :
 * Understand how the behavior of your agents evolves over time.
