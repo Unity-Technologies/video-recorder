@@ -10,9 +10,9 @@ public class FrameCapturerPackaging
         {
             string[] files = new string[]
             {
-                "Assets/ML-Agents/RecordVideos",
+                "Assets/ML-Agents/VideoRecorder",
             };
-            AssetDatabase.ExportPackage(files, "MLAgents_RecordVideos.unitypackage", ExportPackageOptions.Recurse);
+            AssetDatabase.ExportPackage(files, "VideoRecorder.unitypackage", ExportPackageOptions.Recurse);
         }
     }
 
