@@ -5,8 +5,8 @@ using UTJ.FrameCapturer;
 
 namespace MLAgents
 {
-    [CustomEditor(typeof(RecordVideos))]
-    public class RecordVideosEditor : Editor
+    [CustomEditor(typeof(VideoRecorder))]
+    public class VideoRecorderEditor : Editor
     {
 
 
@@ -18,7 +18,7 @@ namespace MLAgents
         {
             //DrawDefaultInspector();
 
-            var recorder = target as RecordVideos;
+            var recorder = target as VideoRecorder;
             var so = serializedObject;
             EditorGUILayout.PropertyField(so.FindProperty("outputDirectory"), true);
 
@@ -47,7 +47,7 @@ namespace MLAgents
             GameObject recordingCamera = GameObject.Instantiate(Camera.main.gameObject);
             recordingCamera.name = "Recording Camera";
             recordingCamera.tag = "Untagged";
-            recordingCamera.AddComponent<RecordVideos>();
+            recordingCamera.AddComponent<VideoRecorder>();
         }
     }
 }

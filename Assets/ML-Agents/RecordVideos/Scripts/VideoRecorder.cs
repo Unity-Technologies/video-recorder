@@ -12,7 +12,7 @@ namespace MLAgents
     }
 
     [RequireComponent(typeof(MovieRecorder))]
-    public class RecordVideos : MonoBehaviour
+    public class VideoRecorder : MonoBehaviour
     {
 
         [Tooltip("The directory where the videos will be saved. Can also be an absolute path (i.e C:\\Users\\Batman\\Desktop)")]
