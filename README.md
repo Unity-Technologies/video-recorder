@@ -10,12 +10,12 @@ This repository is based of the [FrameCapturer plugin](https://github.com/unity3
 
 # How to use
 
-1. Import this package to your project: (VideoRecorder.unitypackage)[https://github.com/Unity-Technologies/video-recorder/raw/master/VideoRecorder.unitypackage]
+1. Import this package to your project: [VideoRecorder.unitypackage](https://github.com/Unity-Technologies/video-recorder/raw/master/VideoRecorder.unitypackage)
 2. Add a recording camera to your scene, you can either:
     * Create a new camera and add the `VideoRecorder` script to it
     * Use the menu (GameObject -> Create Recording Camera), this will clone the main camera in your scene and add the script
 3. Configure the VideoRecorder:
-!["Video Recorder Settings"](https://github.com/LeSphax/ppo/raw/master/Images/VideoRecorder.png "Video Recorder Settings")
+![Video Recorder Settings](https://github.com/Unity-Technologies/video-recorder/raw/master/Images/VideoRecorder.png)
 
 * Output Directory: Where the videos will be saved, it can be either an absolute path or a relative path.
 * Duration Unit: The measurement unit for the interval and the duration, either seconds or academy steps.
