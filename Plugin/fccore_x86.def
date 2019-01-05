@@ -1,3 +1,0 @@
-EXPORTS
-    UnityPluginLoad =  _UnityPluginLoad@4
-    UnityPluginUnload  = _UnityPluginUnload@0
