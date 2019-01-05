@@ -41,11 +41,11 @@ namespace MLAgents
             so.ApplyModifiedProperties();
         }
 
-        [MenuItem("GameObject/Add RecordingCamera")]
+        [MenuItem("GameObject/Create Recording Camera")]
         public static void AddRecordingCamera()
         {
             GameObject recordingCamera = GameObject.Instantiate(Camera.main.gameObject);
-            recordingCamera.name = "Create Recording Camera";
+            recordingCamera.name = "Recording Camera";
             recordingCamera.tag = "Untagged";
             recordingCamera.AddComponent<RecordVideos>();
         }
