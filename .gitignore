@@ -23,11 +23,13 @@
 *.wav
 
 .vs/
+.vscode/
 _out/
 _tmp/
 _build_*/
 external/
 Library/
+obj/
 Temp/
 
 FrameCapturer/*.csproj
