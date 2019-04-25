@@ -7,6 +7,7 @@ It can be used to :
 * Send a video to a friend to brag that your agents are better than him at a video game.
 
 This repository is based of the [FrameCapturer plugin](https://github.com/unity3d-jp/FrameCapturer), it should work on Windows and Mac. To use it on Linux you will need to compile your own version of the plugin.
+At the moment the video recorder is not compatible with the new [Scriptable Render Pipeline](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html)
 
 # How to use
 
