@@ -10,5 +10,9 @@ namespace MLAgents
        public int GetTotalStepCount(){
 		   return 0;
 	   }
+
+       static Academy academy = null;
+
+       public static Academy Instance { get { return academy; } }
     }
 }

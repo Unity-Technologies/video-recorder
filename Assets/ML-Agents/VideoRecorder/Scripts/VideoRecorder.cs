@@ -59,7 +59,7 @@ namespace MLAgents
         private void Awake()
         {
             movieRecorder = GetComponent<MovieRecorder>();
-            academy = FindObjectOfType<Academy>();
+            academy = Academy.Instance;
             Camera mCamera = GetComponent<Camera>();
             RenderTexture rt = new RenderTexture(resolutionWidth, resolutionHeight, 16, RenderTextureFormat.ARGB32);
             mCamera.targetTexture = rt;
