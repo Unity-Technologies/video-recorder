@@ -44,22 +44,19 @@ namespace MLAgents
         private float recordingStartTime = -1;
         private float timeScaleWhenNotRecording;
 
-        private Academy academy;
-
         private MovieRecorder movieRecorder;
 
         private int Steps
         {
             get
             {
-                return academy.GetTotalStepCount() - 1;
+                return Academy.Instance.GetTotalStepCount() - 1;
             }
         }
 
         private void Awake()
         {
             movieRecorder = GetComponent<MovieRecorder>();
-            academy = FindObjectOfType<Academy>();
             Camera mCamera = GetComponent<Camera>();
             RenderTexture rt = new RenderTexture(resolutionWidth, resolutionHeight, 16, RenderTextureFormat.ARGB32);
             mCamera.targetTexture = rt;

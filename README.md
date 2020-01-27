@@ -1,10 +1,13 @@
+# NOTE #
+This repo is deprecated and may not work with newer versions of ML Agents. The most recent change will be compatible with v0.14.0.
+
 # ML-Agents VideoRecorder plugin
 This is a plugin for [Unity's MLAgents framework](https://github.com/Unity-Technologies/ml-agents) that allows to record videos of a scene at a given frequency.
 
 It can be used to :
 * Understand how the behavior of your agents evolves over time.
 * Debug problems that can happen when the environment has been running for a long time.
-* Send a video to a friend to brag that your agents are better than him at a video game.
+* Send a video to a friend to brag that your agents are better than them at a video game.
 
 This repository is based of the [FrameCapturer plugin](https://github.com/unity3d-jp/FrameCapturer), it should work on Windows and Mac. To use it on Linux you will need to compile your own version of the plugin.
 At the moment the video recorder is not compatible with the new [Scriptable Render Pipeline](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html)
